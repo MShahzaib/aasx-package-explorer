@@ -45,6 +45,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AasxPluginTechnicalData", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9264D68F-5269-420F-A486-6B8F39BEEB8B}"
 	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
 		README-packages.md = README-packages.md
 	EndProjectSection
 EndProject
@@ -101,9 +102,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AasxToolkit.Tests", "AasxTo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AasxPackageExplorer.GuiTests", "AasxPackageExplorer.GuiTests\AasxPackageExplorer.GuiTests.csproj", "{24E4B82E-36AC-478E-935C-90DE74121750}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AasxPluginAdvancedTextEditor", "AasxPluginAdvancedTextEditor\AasxPluginAdvancedTextEditor.csproj", "{1E49EB1C-890C-41BA-8446-B04359067833}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AasxPluginAdvancedTextEditor", "AasxPluginAdvancedTextEditor\AasxPluginAdvancedTextEditor.csproj", "{1E49EB1C-890C-41BA-8446-B04359067833}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AasxPackageExplorer.Tests", "AasxPackageExplorer.Tests\AasxPackageExplorer.Tests.csproj", "{F0F08513-DEA5-456E-B03B-D8DF08A5C9E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AasxPackageExplorer.Tests", "AasxPackageExplorer.Tests\AasxPackageExplorer.Tests.csproj", "{F0F08513-DEA5-456E-B03B-D8DF08A5C9E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

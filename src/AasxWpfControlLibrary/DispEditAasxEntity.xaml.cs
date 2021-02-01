@@ -1515,6 +1515,9 @@ namespace AasxPackageExplorer
                 }),
                 checkForIri: false);
 
+            helper.AddGetIdInfoFromEclass(stack, "Semantic Information", "Get Eclass Information", cd.identification.id);
+
+
             // isCaseOf are MULTIPLE references. That is: multiple x multiple keys!
             helper.DisplayOrEditEntityListOfReferences(stack, cd.IsCaseOf,
                 (ico) => { cd.IsCaseOf = ico; },
